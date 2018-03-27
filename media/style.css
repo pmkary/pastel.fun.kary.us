@@ -1,0 +1,53 @@
+
+html {
+    color:          #eee;
+    font-family:    'Montserrat', sans-serif;
+    font-size:      15pt;
+}
+
+body {
+    background-color:       black;
+    margin:                 0;
+    min-height:             100vh;
+    padding-bottom:         50pt;
+}
+
+.background {
+    background-image:       url("./poster.jpg");
+    background-position:    bottom center;
+    background-repeat:      no-repeat;
+    background-size:        cover;
+    height:                 60vh;
+    margin:                 auto;
+    max-height:             300pt;
+    max-width:              800pt;
+}
+
+.text-box-container {
+    display:        block;
+    margin:         auto;
+    max-width:      500pt;
+    padding-top:    10pt;
+}
+
+.text-view {
+    font-family:    'Montserrat', sans-serif;
+    line-height:    1.5;
+    max-width:      300pt;
+    padding:        20pt;
+    user-select:    none;
+}
+
+.get-button {
+    border:             2px solid #eee;
+    border-radius:      100pt;
+    color:              #eee;
+    margin-left:        20pt;
+    padding:            3pt 10pt 4pt 10pt;
+    text-decoration:    none;
+}
+
+.get-button:hover {
+    background-color:       #eee;
+    color:                  black;
+}
